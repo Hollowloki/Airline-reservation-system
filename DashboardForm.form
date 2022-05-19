@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="DashboardForm">
+  <grid id="27dc6" binding="dashboardPanel" layout-manager="GridLayoutManager" row-count="18" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="961" height="579"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e69fa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Airline System  "/>
+        </properties>
+      </component>
+      <component id="3d1a7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Такс"/>
+        </properties>
+      </component>
+      <component id="c8812" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Онгоцны үнэ"/>
+        </properties>
+      </component>
+      <component id="d8534" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Бүгд"/>
+        </properties>
+      </component>
+      <component id="87096" class="javax.swing.JTextField" binding="tax">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="577e4" class="javax.swing.JTextField" binding="planeprice">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="52890" class="javax.swing.JTextField" binding="total">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="94800" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Хүүхэд"/>
+        </properties>
+      </component>
+      <component id="b979e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="VIP"/>
+        </properties>
+      </component>
+      <component id="930db" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Хаанаас"/>
+        </properties>
+      </component>
+      <component id="78310" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Хаашаа"/>
+        </properties>
+      </component>
+      <component id="a0bc3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Огноо"/>
+        </properties>
+      </component>
+      <component id="615e7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Цаг"/>
+        </properties>
+      </component>
+      <component id="fbd30" class="javax.swing.JTextField" binding="Where">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="42d2f" class="javax.swing.JTextField" binding="To">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="fd80" class="javax.swing.JTextField" binding="Dateofplane">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="3a189" class="javax.swing.JTextField" binding="Timeofplane">
+        <constraints>
+          <grid row="14" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="bc856" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="8" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Захиалгын ID"/>
+        </properties>
+      </component>
+      <component id="7e915" class="javax.swing.JTextField" binding="orderId">
+        <constraints>
+          <grid row="8" column="8" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e3847" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="8" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Нийт үнэ"/>
+        </properties>
+      </component>
+      <component id="a94ff" class="javax.swing.JTextField" binding="Totalprint">
+        <constraints>
+          <grid row="14" column="8" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="33400" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Захиалгын төрөл"/>
+        </properties>
+      </component>
+      <component id="de051" class="javax.swing.JLabel" binding="usernamelabel">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="c7ab7" class="javax.swing.JLabel" binding="emaillabel">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="email"/>
+        </properties>
+      </component>
+      <component id="24328" class="javax.swing.JComboBox" binding="classcombo">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+      <component id="38e75" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Класс"/>
+        </properties>
+      </component>
+      <component id="c3c12" class="javax.swing.JCheckBox" binding="checkBox2" default-binding="true">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e63f9" class="javax.swing.JCheckBox" binding="checkBox3" default-binding="true">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="81bba">
+        <constraints>
+          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="fa29d" class="javax.swing.JButton" binding="zahialah">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Захиалах"/>
+        </properties>
+      </component>
+      <component id="9a8a2" class="javax.swing.JButton" binding="confirmbutton">
+        <constraints>
+          <grid row="16" column="8" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Баталгаажуулах"/>
+        </properties>
+      </component>
+      <hspacer id="7ae1e">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="e6e35" class="javax.swing.JButton" binding="calc">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Бодох"/>
+        </properties>
+      </component>
+      <component id="9832e" class="javax.swing.JLabel" binding="Tsag">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Өдөр"/>
+        </properties>
+      </component>
+      <component id="b9721" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <doubleBuffered value="false"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <focusCycleRoot value="true"/>
+          <opaque value="true"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="8e271" class="javax.swing.JButton" binding="bolomjitTsag">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Боломжит цаг"/>
+        </properties>
+      </component>
+      <component id="a837" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Цаг"/>
+        </properties>
+      </component>
+      <component id="946a0" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="77f4c">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="34f05" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Нэг хүн"/>
+        </properties>
+      </component>
+      <component id="349e8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Энгийн"/>
+        </properties>
+      </component>
+      <component id="10f0f" class="javax.swing.JCheckBox" binding="checkBox5" default-binding="true">
+        <constraints>
+          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="60370" class="javax.swing.JCheckBox" binding="checkBox6" default-binding="true">
+        <constraints>
+          <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2beee" class="javax.swing.JButton" binding="showorder">
+        <constraints>
+          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Захиалгууд харах"/>
+        </properties>
+      </component>
+      <component id="7fbde" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Чиглэл"/>
+        </properties>
+      </component>
+      <component id="fb2f4" class="javax.swing.JComboBox" binding="routeBox">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="b498">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="cdaa5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Том хүн"/>
+        </properties>
+      </component>
+      <component id="917b7" class="javax.swing.JCheckBox" binding="checkBox1" default-binding="true">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="babff" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Бизнес"/>
+        </properties>
+      </component>
+      <component id="7b8de" class="javax.swing.JCheckBox" binding="checkBox4" default-binding="true">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="63310" class="javax.swing.JButton" binding="logout">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Гарах"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
